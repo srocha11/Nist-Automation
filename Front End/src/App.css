@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: rgb(34, 67, 129);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  text-align: left;
+}
+
+ul li {
+  padding: 10px;
+}
+
+label {
+  padding: 20px;
+}
+
+.container {
+  padding: 0px 150px 0px 150px;
+}
+
+select,
+button,
+input {
+  display: block;
+  background-color: rgb(131, 150, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 10px;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  color: rgb(250, 252, 252);
+}
+
+button {
+  width: 150px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.button-wrapper .btn {
+  margin-bottom: 5px;
+}
+
+.padding-top {
+  padding-top: 90px;
+}
+
+@media not print {
+  .hide-print {
+    display: none;
+  }
+}
